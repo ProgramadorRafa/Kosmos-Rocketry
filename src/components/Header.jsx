@@ -8,7 +8,7 @@ export default function Header() {
             <div className="headerContainer">
                 <div className="logo">
                     <a href="/">
-                        <img src="./public/images/logoName.png" alt="logoHeader" />
+                        <img src="/images/logoName.png" alt="logoHeader" />
                     </a>
                 </div>
                 <nav className='menuItens'>
