@@ -1,0 +1,11 @@
+.endPage{
+    background-color: #212526;
+    text-align: center;
+    color: #fff;
+    padding: 2rem 1rem;
+    font-family: var(--font-primary);
+}
+.endPage a{
+    color: royalblue;
+    text-decoration: underline;
+}
