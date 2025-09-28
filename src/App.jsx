@@ -1,9 +1,9 @@
 import React from 'react';
 import AppRoutes from './routes';
 
-import './css/hero.css';
-import './css/main.css';
-import './css/footer.css';
+import './css/Hero.css';
+import './css/Main.css';
+import './css/Footer.css';
 
 export default function App() {
   return (
