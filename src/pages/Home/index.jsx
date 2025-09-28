@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../../components/Header";
-import Hero from "../../components/hero";
+import Hero from "../../components/Hero";
 import InfoData from "../../components/InfoData";
 import Projects from "../../components/Projects";
 import Footer from "../../components/Footer";
