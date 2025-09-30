@@ -17,8 +17,8 @@ export default function Header() {
                         <li><Link className='menuItem' to="/about">sobre nós</Link></li>
                         <li><Link className='menuItem' to="/newsletter">newsletter</Link></li>
                         <li><Link className='menuItem' to="/partners">Parcerias</Link></li>
-                        <li><Link className='menuItem' to="/">Produtos</Link></li>
-                        <li><Link className='menuItem' to="/">Portal Transparência</Link></li>
+                        <li><Link className='menuItem' to="/products">Produtos</Link></li>
+                        <li><a className='menuItem' href="https://transparencia.ufsc.br/" target="_blank">Portal Transparência</a></li>
                         <li><Link className='menuItem' to="/contact">contato</Link></li>
                     </ul>
                     <div className="btnVakinha">

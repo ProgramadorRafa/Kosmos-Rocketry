@@ -408,38 +408,39 @@ header {
 .containerTeam h3 {
     font-size: 2rem;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .cardTeam {
     margin-bottom: 2.5rem;
+    width: 100%;
 }
 
 .cardTeam .title h4 {
     margin-bottom: 1rem;
     font-weight: 600;
     font-size: 1.3rem;
+    text-align: center;
 }
 
 .cards {
-    /* display: flex; */
     align-items: center;
-    justify-content: start;
+    justify-content: center;
     gap: 1rem;
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: auto auto auto;
 }
 
 .card {
-    /* width: 400px; */
-    height: 350px;
+    max-width: 300px;
+    /* height: 350px; */
     margin-bottom: 1rem;
 }
 
 .imageCard {
     width: 100%;
-    height: 300px;
-    background-color: #000000;
+    /* height: 300px; */
     margin-bottom: 1rem;
 }
 
@@ -901,11 +902,17 @@ td {
     .newsLetterContent .adsContent, .newsLetterContent .newsSide{
         width: 100%;
     }
+    .cardTeam{
+        text-align: center;
+    }
+    .cards{
+        grid-template-columns: auto auto;
+        justify-content: center;
+    }
 }
-
-@media screen and (max-width:600px) {
+@media screen and (max-width:700px) {
     .cards {
-        flex-wrap: wrap;
+        grid-template-columns: auto;
     }
 
     .textLocalHero {

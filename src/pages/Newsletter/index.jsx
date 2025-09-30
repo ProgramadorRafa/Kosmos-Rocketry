@@ -7,7 +7,7 @@ export default function newsLetter() {
     return (
         <>
             <Header />
-            <HeroFlat texto="Newsletter" />
+            <HeroFlat texto="Newsletter" image="/images/banner/bannerFlat_contact.webp" />
             <div className="newsLetterContainer">
                 <div className="titleCenter">
                     <h2>Fique por dentro de tudo</h2>

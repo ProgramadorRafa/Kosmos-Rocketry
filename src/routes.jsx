@@ -9,6 +9,7 @@ import Donate from "./pages/Donate/";
 import Partners from "./pages/Partners";
 import Project from "./pages/Project";
 import Newsletter from "./pages/Newsletter";
+import Products from "./pages/Products"
 
 export default function AppRoutes() {
     return(
@@ -22,6 +23,7 @@ export default function AppRoutes() {
                 <Route path="/partners" element={<Partners />} />
                 <Route path="/project" element={<Project />} />
                 <Route path="/newsletter" element={<Newsletter />} />
+                <Route path="/products" element={<Products />} />
             </Routes>
         </BrowserRouter>
     );

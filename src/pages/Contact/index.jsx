@@ -8,13 +8,13 @@ export default function Contact() {
     return (
         <>
             <Header />
-            <HeroFlat texto="Contato" />
+            <HeroFlat texto="Contato" image="/images/banner/bannerFlat_contact.webp" />
 
             <section className="socialMedias">
                 <ul>
-                    <li><a href="https://www.instagram.com/kosmosrocketry/" target="_black"><i class="ri-instagram-line"></i></a></li>
-                    <li><a href="#" target="_black"><i class="ri-linkedin-box-line"></i></a></li>
-                    <li><a href="#" target="_black"><i class="ri-tiktok-line"></i></a></li>
+                    <li><a href="https://www.instagram.com/kosmosrocketry/" target="_black"><i className="ri-instagram-line"></i></a></li>
+                    <li><a href="#" target="_black"><i className="ri-linkedin-box-line"></i></a></li>
+                    <li><a href="#" target="_black"><i className="ri-tiktok-line"></i></a></li>
                 </ul>
             </section>
 

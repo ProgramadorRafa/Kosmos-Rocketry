@@ -9,7 +9,7 @@ export default function Donate() {
     return(
         <>
             <Header />
-            <HeroFlat texto="Doações" />
+            <HeroFlat texto="Doações" image="/images/banner/bannerFlat_contact.webp" />
             <section className="donateSection">
                 <div className="donateContent">
 
