@@ -55,15 +55,15 @@ export default function Contact() {
                         <form onSubmit={sendEmail}>
                             <label>
                                 Nome: <br />
-                                <input type="text" onChange={(e) => setName(e.target.value)} required placeholder="Digite seu nome" />
+                                <input type="text" onChange={(e) => setName(e.target.value)} value={name} required placeholder="Digite seu nome" />
                             </label>
 
                             <label>
                                 E-mail: <br />
-                                <input type="email" onChange={(e) => setEmail(e.target.value)} required placeholder="Digite seu melhor E-mail" />
+                                <input type="email" onChange={(e) => setEmail(e.target.value)} value={email} required placeholder="Digite seu melhor E-mail" />
                             </label>
                             <label> Digite sua mensagem: <br />
-                                <textarea onChange={(e) => setMessage(e.target.value)} placeholder="Digite sua mensagem"></textarea>
+                                <textarea onChange={(e) => setMessage(e.target.value)} value={message} placeholder="Digite sua mensagem"></textarea>
                             </label>
                             <div className="actBtn">
                                 <button type="submit">Enviar</button>
