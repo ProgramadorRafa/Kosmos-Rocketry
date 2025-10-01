@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function heroFlat(props) {
-    console.log(props.image);
     return (
         <section className="localHero">
             <div className="imageLocalHero">
