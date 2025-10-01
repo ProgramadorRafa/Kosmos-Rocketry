@@ -7,7 +7,7 @@ export default function Hero() {
     return (
         <section className="hero">
             <div className="inHero">
-                {/* <img src="/public/images/1.webp" alt="testeImgHero" /> */}
+                <img src="/images/banner/HeroTesteImage.webp" alt="testeImgHero" />
             </div>
             <div className="textContent">
                 <h1>a Kosmos <br /> não tem limites</h1>

@@ -22,7 +22,7 @@ export default function Contact() {
                 <div className="contentForm">
                     <div className="localFormLeft sideImage">
                         <div className="localCard">
-                            <img src="../public/images/banner/contatoBannerCard.png" alt="imagemContact" />
+                            <img src="/images/banner/contatoBannerCard.webp" alt="imagemContact" />
                         </div>
                     </div>
                     <div className="localFormRight sideForm">

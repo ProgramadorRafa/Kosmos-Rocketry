@@ -21,8 +21,7 @@ export default function About() {
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to mak.</p>
                     </div>
                     <div className="imageBox">
-                        <img src="../public/images/banner/About.jpg" alt="image" />
-                        <div className="shadowBox"></div>
+                        <img src="/images/banner/about.webp" alt="image" />
                     </div>
                 </div>
             </section>
@@ -32,28 +31,7 @@ export default function About() {
                     <h3>Nossa Equipe</h3>
                     <div className="cardTeam">
                         <div className="title">
-                            <h4>Engenharia</h4>
-                        </div>
-                        <div className="cards">
-                            {
-                                TeamID.map((item) => (
-                                    <div className="card">
-                                        <div className="imageCard">
-                                            <img src={item.image} alt="image" />
-                                        </div>
-                                        <div className="infoCard">
-                                            <h4>{item.name}</h4>
-                                            <p>{item.role}</p>
-                                        </div>
-                                    </div>
-                                ))
-                            }
-                        </div>
-                    </div>
-
-                    <div className="cardTeam">
-                        <div className="title">
-                            <h4>Aerodinamica</h4>
+                            <h4>Todos os nossos membros: </h4>
                         </div>
                         <div className="cards">
                             {
@@ -72,8 +50,6 @@ export default function About() {
                         </div>
                     </div>
                 </div>
-
-
             </section>
 
             <section className="membersOut">

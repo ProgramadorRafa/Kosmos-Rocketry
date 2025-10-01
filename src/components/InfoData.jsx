@@ -6,7 +6,7 @@ export default function InfoData() {
         <section className="dataRockets">
             <div className="dataRocketsBox">
                 <div className="image">
-                    {/* <img src="../public/images/testes/1.jpg" alt="image" /> */}
+                    <img src="/images/banner/velocityBanner.webp" alt="image" />
                 </div>
                 <div className="titleBox">
                     <h2>Maior Velocidade</h2>
@@ -14,7 +14,7 @@ export default function InfoData() {
             </div>
             <div className="dataRocketsBox">
                 <div className="image">
-                    {/* <img src="../public/images/testes/2.jpg" alt="image" /> */}
+                    <img src="/images/banner/higthBanner.webp" alt="image" />
                 </div>
                 <div className="titleBox">
                     <h2>Maior Altitude</h2>
@@ -22,7 +22,7 @@ export default function InfoData() {
             </div>
             <div className="dataRocketsBox">
                 <div className="image">
-                    {/* <img src="../public/images/testes/3.jpg" alt="image" /> */}
+                    <img src="/images/banner/powerBanner.webp" alt="image" />
                 </div>
                 <div className="titleBox">
                     <h2>Motor Mais Potente</h2>

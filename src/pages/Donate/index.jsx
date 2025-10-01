@@ -18,7 +18,7 @@ export default function Donate() {
                     </div>
                     
                     <div className="qrCode">
-                        <img src="../public/images/banner/QRCODE_APOIO.png" alt="qrcode" />
+                        <img src="/images/banner/QRCODE_APOIO.webp" alt="qrcode" />
                     </div>
 
                     <div className="donateBox">

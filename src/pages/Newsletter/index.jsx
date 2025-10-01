@@ -46,7 +46,7 @@ export default function newsLetter() {
                         </div>
                     </div>
                     <div className="adsContent">
-                        <img src="../public/images/" alt="image" />
+                        <img src="/images/banner/contatoBannerCard.webp" alt="image" />
                     </div>
                 </div>
             </div>
