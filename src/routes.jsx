@@ -10,6 +10,7 @@ import Partners from "./pages/Partners";
 import Project from "./pages/Project";
 import Newsletter from "./pages/Newsletter";
 import Products from "./pages/Products"
+import ProjectDetails from "./pages/Project/projectDetails";
 
 export default function AppRoutes() {
     return(
@@ -22,6 +23,7 @@ export default function AppRoutes() {
                 <Route path="/donate" element={<Donate />} />
                 <Route path="/partners" element={<Partners />} />
                 <Route path="/project" element={<Project />} />
+                <Route path="/project/:id" element={<ProjectDetails />} />
                 <Route path="/newsletter" element={<Newsletter />} />
                 <Route path="/products" element={<Products />} />
             </Routes>

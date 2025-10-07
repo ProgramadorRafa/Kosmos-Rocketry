@@ -12,17 +12,17 @@ export default function Projects() {
                 </div>
                 <div className="container">
                     <div className="block bk1">
-                        <Link to="#">
+                        <Link to="/project/1">
                             <img src="/images/project/teste.webp" alt="" />
                         </Link>
                     </div>
                     <div className="block bk2">
-                        <Link to="#">
+                        <Link to="/project/2">
                             <img src="/images/project/teste.webp" alt="" />
                         </Link>
                     </div>
                     <div className="block bk3">
-                        <Link to="#">
+                        <Link to="/project/3">
                             <img src="/images/project/teste.webp" alt="" />
                         </Link>
                     </div>
