@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import ProjectCard from "../../components/projectCard";
+import HeroFlat from "../../components/HeroFlat";
 
 const projectData = [
     {
@@ -38,16 +39,19 @@ export default function Projects() {
     return (
         <>
             <Header />
+            <HeroFlat texto="Nossos Projetos" image="/images/banner/bannerFlat_contact.webp" />
             <section className="projects">
-                <h1>Nossos projetos</h1>
+                <h3 className="title">Principais Projetos</h3>
                 <div className="project-list">
-                    {projectData.map((project) => (
-                        <ProjectCard
-                            key={project.id}
-                            project={project}
-                            onClick={() => handleProjectClick(project.id)}
-                        />
-                    ))}
+                    <div className="project-content">
+                        {projectData.map((project) => (
+                            <ProjectCard
+                                key={project.id}
+                                project={project}
+                                onClick={() => handleProjectClick(project.id)}
+                            />
+                        ))}
+                    </div>
                 </div>
             </section>
             <Footer />

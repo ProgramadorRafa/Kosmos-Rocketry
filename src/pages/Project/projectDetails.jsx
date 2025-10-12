@@ -12,7 +12,7 @@ const projectData = [
     },
     {
         id: "2",
-        title: "Project Two",
+        title: "Hagemeyer",
         description: `
             Foi o primeiro grande projeto da equipe sem ser categorizado como mini foguete, tendo apogeu de 1 km para competir na LASC 2019. Seu motor foi o primeiro com case de aço feito inteiramente pela equipe, o qual foi utilizado no ALFA. Também foi o primeiro projeto da equipe no processo de reestruturação que aconteceu em 2019, tendo trabalho efetivo de todos os setores. O voo dele não foi nominal, mas rendeu uma boa experiência para o pessoal da época.
             Curiosidades: Tinha o formato peculiar com a ogiva maior que o corpo do foguete, pois o sistema de aviônica ficou maior do que o planejado. Além disso, seu nome é em homenagem a um antigo membro da equipe.
@@ -41,12 +41,29 @@ export default function ProjectDetails() {
     return (
         <>
             <Header />
-            <div className="project-details">
-                <img src={`/images/project/project${id}.png`} alt="" />
-                <h1>{project.title}</h1>
-                <p>{project.description}</p>
+            <div className="project-content-details">
+                <div className="project-details">
+                    <div className="image-project">
+                        <img src={`/images/project/project${id}.png`} alt="" />
+                    </div>
+                    <div className="text-project">
+                        <h2>{project.title}</h2>
+                        <p>{project.description}</p>
+                        <Link to="/project">Back to Projects</Link>
+                    </div>
+                </div>
+                <div className="list-images-projects">
+                    <div className="image-table-item">
+                        <img src="" alt="" />
+                    </div>
+                    <div className="image-table-item">
+                        <img src="" alt="" />
+                    </div>
+                    <div className="image-table-item">
+                        <img src="" alt="" />
+                    </div>
+                </div>
             </div>
-            <Link to="/project">Back to Projects</Link>
             <Footer />
         </>
     );

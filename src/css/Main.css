@@ -730,12 +730,14 @@ header {
     justify-content: space-around;
     gap: 1rem;
 }
-.newsSide{
+
+.newsSide {
     flex: 2;
     padding: 1rem;
     background-color: #00000047;
     border-radius: .5rem;
 }
+
 .newsSide table {
     margin: 0 auto;
     margin-top: 1.5rem;
@@ -768,35 +770,128 @@ td {
     background-color: #00000047;
     border-radius: .5rem;
 }
-.adsContent img{
+
+.adsContent img {
     width: 100%;
     object-fit: cover;
     border-radius: .5rem;
 }
-.titleCenter{
+
+.titleCenter {
     margin-bottom: 1rem;
     color: #fff;
     text-align: center;
 }
+
 /* END NEWSLETTER SETTINGS */
 
 /* PROJECT CARDS */
+.projects .title {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+}
 
-.project-card, .project-details, .projects{
+.project-list {
+    padding: 1rem;
+}
+
+.project-content {
+    /* background-color: red; */
+    margin-bottom: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.project-card,
+.projects {
     font-family: var(--font-primary);
     color: #fff;
 }
 
 .project-card {
-    background-color: red;
-    width: 300px;
+    background-color: green;
+    /* width: 300px; */
     margin-bottom: 1rem;
+    color: #fff;
+}
+.project-card h3 {
+    margin: .5rem 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.project-card .image{
+    width: 100%;
+    height: 250px;
 }
 .project-card img {
     width: 100%;
-    height: 200px;
+    height: 100%;
     object-fit: cover;
     border-radius: .3rem;
+}
+
+
+.project-content-details{
+    padding: 1rem;
+    /* background-color: red; */
+    font-family: var(--font-primary);
+}
+.project-details{
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #fff;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.image-project{
+    width: 40%;
+    /* flex: 1; */
+}
+.image-project img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: .5rem;
+}
+.text-project{
+    flex: 1;
+    padding: 1rem;
+}
+.text-project h2{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.text-project p{
+    color: #ccc;
+    margin-bottom: 1rem;
+}
+
+.list-images-projects{
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: 1rem;
+    /* padding: 1rem; */
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.image-table-item{
+    width: 300px;
+    height: 250px;
+    background-color: red;
 }
 /* END PROJECT CARDS */
 
@@ -907,22 +1002,31 @@ td {
         margin-bottom: 1rem;
     }
 
-    .newsLetterContent{
+    .newsLetterContent {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .newsLetterContent .adsContent, .newsLetterContent .newsSide{
+
+    .newsLetterContent .adsContent,
+    .newsLetterContent .newsSide {
         width: 100%;
     }
-    .cardTeam{
+
+    .cardTeam {
         text-align: center;
     }
-    .cards{
+
+    .cards {
         grid-template-columns: auto auto;
         justify-content: center;
     }
+
+    .project-content {
+        grid-template-columns: 1fr 1fr;
+    }
 }
+
 @media screen and (max-width:700px) {
     .cards {
         grid-template-columns: auto;
@@ -930,5 +1034,12 @@ td {
 
     .textLocalHero {
         font-size: 1rem;
+    }
+
+    .project-content {
+        grid-template-columns: 1fr;
+    }
+    .project-card .image{
+        height: auto;
     }
 }
