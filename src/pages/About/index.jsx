@@ -12,16 +12,17 @@ export default function About() {
     return (
         <>
             <Header />
-            <HeroFlat texto="Somos a Kosmos" image="/images/banner/bannerFlat_contact.webp" />
+            {/* <HeroFlat texto="Somos a Kosmos" image="/images/banner/bannerFlat_contact.webp" /> */}
             <section className="containerAbout">
                 <div className="containerBox">
-                    <div className="containerText">
-                        <h3>Lorem, ipsum.</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p><br />
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to mak.</p>
-                    </div>
                     <div className="imageBox">
                         <img src="/images/banner/about.webp" alt="image" />
+                    </div>
+                    <div className="containerText">
+                        <h2>Sobre nós.</h2> <br />
+                        <p>A Kosmos foi fundada em 2013 pelos alunos do curso de Engenharia Aeroespacial e posteriormente incluiu estudantes de outros cursos da UFSC do Campus de Joinville. Em 2019, passou por uma reestruturação que mudou tanto a identidade visual da equipe quanto a organização interna.</p><br />
+                        <p>Inicialmente, participava do Festival de minifoguetes de Curitiba, com projetos de 500 m de apogeu. Posteriormente, começou a competir na LASC, sendo o Hagmeyer o primeiro projeto a participar dessa competição.</p><br />
+                        <p>Em 2019, passou por uma reestruturação que mudou tanto a identidade visual da equipe quanto a organização interna.</p>
                     </div>
                 </div>
             </section>

@@ -18,7 +18,11 @@
     left: 0;
     top: 0;
 }
-.inHero img{
+.inHero .teste{
+    width: 100%;
+    height: 100%;
+}
+.inHero .imageHero{
     width: 100%;
     height: 100%;
     object-fit: cover;

@@ -9,8 +9,8 @@ import HeroFlat from "../../components/HeroFlat";
 const projectData = [
     {
         id: 1,
-        title: "Project One",
-        description: "Description for project one.",
+        title: "MORPHEUS",
+        description: "Começou a ser desenvolvido em 2023 com o intuito de participar da International Engineering Rocket Competition (IREC), a maior competição de foguetes universitários do mundo em 2024. Porém...",
         image: "/images/project/project1.png"
     },
     {
