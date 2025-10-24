@@ -26,7 +26,7 @@ export default function About() {
                     </div>
                 </div>
             </section>
-
+            <Projects />
             <section className="containerTeam">
                 <div className="contentTeam">
                     <h3>Nossa Equipe</h3>
@@ -67,8 +67,6 @@ export default function About() {
                     </div>
                 </div>
             </section>
-
-            <Projects />
             <Footer />
         </>
     );

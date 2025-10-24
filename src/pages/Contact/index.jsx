@@ -38,7 +38,7 @@ export default function Contact() {
 
             <section className="socialMedias">
                 <ul>
-                    <li><a href="https://www.instagram.com/kosmosrocketry/" target="_black"><i className="ri-instagram-line"></i></a></li>
+                    <li><a href="https://www.instagram.com/kosmosrocketry/" target="_black"><i className="ri-instagram-line"></i><span>Kosmos Rocketry</span></a></li>
                     <li><a href="#" target="_black"><i className="ri-linkedin-box-line"></i></a></li>
                     <li><a href="#" target="_black"><i className="ri-tiktok-line"></i></a></li>
                 </ul>

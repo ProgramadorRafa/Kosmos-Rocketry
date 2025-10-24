@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
@@ -39,7 +40,18 @@ export default function Projects() {
     return (
         <>
             <Header />
-            <HeroFlat texto="Nossos Projetos" image="/images/banner/bannerFlat_contact.webp" />
+            <section className="project-banner">
+                <div className="text-container">
+                    <div className="text-projects">
+                        <h1>Advancing  human <br /> spaceflight</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, debitis non at cupiditate impedit obcaecati rerum eos laudantium dicta iure minima quo voluptatibus laboriosam a.</p>
+                        <Link className="btnBorder" to="/contact">Junte-se a nós <i class="ri-arrow-right-line"></i></Link>
+                    </div>
+                </div>
+                <div className="backgound_image">
+                    <img src="" alt="backgound" />
+                </div>
+            </section>
             <section className="projects">
                 <h3 className="title">Principais Projetos</h3>
                 <div className="project-list">

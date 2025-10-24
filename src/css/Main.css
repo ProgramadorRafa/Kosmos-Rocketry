@@ -27,9 +27,10 @@ header {
 
 .headerContainer {
     margin: 0 auto;
-    max-width: 1200px;
+    /* max-width: 1200px; */
+    /* padding: 0 2rem; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .headerContainer .logo,
@@ -216,7 +217,7 @@ header {
 }
 
 .Title h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     margin-bottom: 1rem;
     font-weight: 300;
@@ -228,35 +229,37 @@ header {
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
         'bk1 bk2'
-        'bk1 bk3';
+        'bk3 bk4';
     gap: 1rem;
 }
 
 .bk1,
 .bk2,
 .bk3 {
-    background-color: #00000047;
+    /* background-color: #00000047; */
 }
 
 .bk1 {
     grid-area: bk1;
-    height: 400px;
+    height: 350px;
 }
 
 .bk2 {
     grid-area: bk2;
-    height: 190px;
+    height: 350px;
+
 }
 
 .bk3 {
     grid-area: bk3;
-    height: 190px;
+    height: 350px;
+
 }
 
 .block {
     transition: .3s ease-in-out;
     cursor: pointer;
-    background-color: #00000047;
+    /* background-color: #00000047; */
 }
 
 .block img {
@@ -649,8 +652,15 @@ header {
     color: #fff;
     text-decoration: none;
     font-size: 1.4rem;
-}
 
+    display: flex;
+    flex-direction: row;
+}
+.socialMedias a span{
+    font-size: .7rem;
+    margin-left: .4rem;
+    font-family: var(--font-primary);
+}
 
 
 
@@ -821,15 +831,18 @@ td {
     margin-bottom: 1rem;
     color: #fff;
 }
+
 .project-card h3 {
     margin: .5rem 0;
     font-size: 1.2rem;
     font-weight: 600;
 }
-.project-card .image{
+
+.project-card .image {
     width: 100%;
     height: 250px;
 }
+
 .project-card img {
     width: 100%;
     height: 100%;
@@ -838,12 +851,13 @@ td {
 }
 
 
-.project-content-details{
+.project-content-details {
     padding: 1rem;
     /* background-color: red; */
     font-family: var(--font-primary);
 }
-.project-details{
+
+.project-details {
     max-width: 1200px;
     margin: 0 auto;
     color: #fff;
@@ -855,30 +869,35 @@ td {
     width: 100%;
     flex-wrap: wrap;
 }
-.image-project{
+
+.image-project {
     width: 40%;
     /* flex: 1; */
 }
-.image-project img{
+
+.image-project img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: .5rem;
 }
-.text-project{
+
+.text-project {
     flex: 1;
     padding: 1rem;
 }
-.text-project h2{
+
+.text-project h2 {
     font-size: 3rem;
     margin-bottom: 1rem;
 }
-.text-project p{
+
+.text-project p {
     color: #ccc;
     margin-bottom: 1rem;
 }
 
-.list-images-projects{
+.list-images-projects {
     margin: 0 auto;
     max-width: 1200px;
     margin-top: 1rem;
@@ -888,12 +907,62 @@ td {
     gap: 1rem;
     flex-wrap: wrap;
 }
-.image-table-item{
+
+.image-table-item {
     width: 300px;
     height: 250px;
     background-color: red;
 }
+
+
+
+.project-banner{
+    width: 100%;
+    height: 76.74dvh;
+    display: flex;
+    align-items: center;
+    /* background-color: rebeccapurple; */
+    position: relative;
+}
+.text-container{
+    max-width: 1200px;
+    width: 100%;
+    padding: 2rem 1rem;
+    margin: 0 auto;
+}
+.text-projects{
+    max-width: 600px;
+    /* background-color: blue; */
+    gap: 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    font-family: var(--font-primary);
+    color: #fff;
+}
+.text-projects h1{
+    text-transform: uppercase;
+}
+.btnBorder{
+    padding: .5rem 1rem;
+    border: 1px solid #ffffff2a;
+    border-radius: .2rem;
+    display: inline-block;
+    color: #ffffffa2;
+    text-decoration: none;
+}
+.backgound_image{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: -1;
+}
+
 /* END PROJECT CARDS */
+
 
 
 /* POINT BRAKE MB FST 1000PX */
@@ -1039,7 +1108,14 @@ td {
     .project-content {
         grid-template-columns: 1fr;
     }
-    .project-card .image{
+
+    .project-card .image {
         height: auto;
+    }
+
+    .bk1,
+    .bk2,
+    .bk3 {
+        height: 200px;
     }
 }

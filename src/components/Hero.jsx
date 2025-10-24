@@ -8,9 +8,10 @@ export default function Hero() {
 
 
     const dataImages = [
-        { id: '1', image: 'https://images.unsplash.com/photo-1760340769739-653d00200baf?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1740' },
-        { id: '2', image: 'https://images.unsplash.com/photo-1704653106935-aef5b8206c09?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=774' },
-        { id: '3', image: 'https://images.unsplash.com/photo-1609146373501-1c45dcbf2643?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870' }
+        { id: '1', image: '/images/hero/editada/1.png' },
+        { id: '2', image: '/images/hero/editada/2.png' },
+        { id: '3', image: '/images/hero/editada/3.png' },
+        { id: '4', image: '/images/hero/editada/4.png' }
     ]
 
 
